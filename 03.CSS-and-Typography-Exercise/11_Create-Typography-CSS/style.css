@@ -1,0 +1,47 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 50px 60px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, serif;
+}
+
+
+table {
+    /* border: 1px solid gray; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #F1F1F1
+}
+thead.thead tr{
+    background-color: #CCCCCC;
+}
+td {
+    width: 144px;
+    height: 32px;
+    padding-left: 5px;
+    border: 1px solid #ddd;    
+
+}
+
+th {
+    text-align: left;
+    padding: 6px;
+    font-size: 14px;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid rgb(221,221,221) ;
+    padding: 28px;
+}
+
+blockquote p.koko {
+    text-align: right;
+}
