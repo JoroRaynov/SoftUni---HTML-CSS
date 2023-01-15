@@ -9,15 +9,16 @@ body {
 }
 
 
+
 h1 {
     font-size: 28px;
 }
 
-p:nth-child(3) {
+p.p24 {
     font-size: 24px;
 }
 
-p:nth-child(2) {
+p.italic {
     font-style:  italic;
 }
 
@@ -49,10 +50,14 @@ a {
 
 footer {
     background-color: #444;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+   
     /* position: relative;
     top: 200px; */
    
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
