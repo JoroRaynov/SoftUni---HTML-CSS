@@ -2,11 +2,12 @@ body {
     background-color: #EEEEEE;
 }
 .button {
-    border: 2px solid gray;
+    border: 2px solid rgb(51, 51, 51);
     border-radius: 18px;
     padding: 6px 16px;
-    color: gray;
+    color: rgb(51, 51, 51);
     cursor: pointer;
+    outline: none;
 }
 
 .hover.button:hover {
