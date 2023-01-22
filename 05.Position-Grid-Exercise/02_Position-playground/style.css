@@ -1,0 +1,53 @@
+div.first {
+      position: relative;
+      height: 50vh;
+      background-image: linear-gradient(
+            to right top,
+            #051937,
+            #004d7a,
+            #008793,
+            #00bf72,
+            #a8eb12
+      );
+}
+
+div.second {
+    height: 50vh;
+      position: relative;
+      background-image: linear-gradient(
+            to right,
+            #aa3574,
+            #c13a61,
+            #cf4a4c,
+            #d36035,
+            #ce791d
+      );
+}
+
+img {
+    width: 212px;
+}
+div.first section {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+div.second section {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+i {
+    position: absolute;
+    right: 4px;
+    bottom: 6px;
+    color: #fff
+}
