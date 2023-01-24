@@ -26,22 +26,42 @@
 }
 
 .hero .info .info__desc {
-    font-family: 'Sora', sans-serif;
-    font-weight: 400;
+      font-family: 'Sora', sans-serif;
+      font-weight: 400;
       font-size: 20px;
       letter-spacing: -0.02em;
       line-height: 32px;
-      color: #7E8BB6;
+      color: #7e8bb6;
       margin-bottom: 32px;
-
 }
 
 .hero .info .hero__btn {
-    padding: 8px 20px;
-    border-radius: 8px;
-    background-color: var(--clr-secondary);
-    border: none;
-    color: white;
+      padding: 8px 20px;
+      border-radius: 8px;
+      background-color: var(--clr-secondary);
+      border: none;
+      color: white;
 }
 
+.hero .hero__img {
+      width: calc(100% - 2 * 80px);
+      margin: 0 auto;
+      margin-bottom: 64px;
+}
 
+.hero .companies {
+      /* display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: 180px;
+      gap: 24px; */
+      width: calc(100% - 2 * 190px);
+    padding: 0px;
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      gap: 59px;
+}
+
+.hero .companies .companies__item {
+    
+}

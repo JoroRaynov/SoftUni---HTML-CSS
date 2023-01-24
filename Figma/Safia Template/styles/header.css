@@ -30,29 +30,16 @@
       bottom: 12.5%;
 }
 .header .header__login-btn {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
       padding: 16px 24px;
-      gap: 10px;
       background-color: var(--clr-neutral-700);
       border-radius: 8px;
       border: none;
       color: #ffffff;
       position: absolute;
-      width: 94px;
-      height: 56px;
       right: 77px;
       top: 24px;
+      font-family: sans-serif;
+      text-align: center;
+      cursor: pointer;
 }
 
-/* hr {
-    position: absolute;
-width: 1440px;
-height: 1px;
-left: 0px;
-top: 98px;
-
-background: #4E5A85;
-opacity: 0.2;
-} */
