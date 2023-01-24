@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+.hero {
+      padding: 64px 0;
+}
+
+.hero .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: calc(100% - 2 * 190px);
+      margin: 0 auto;
+      margin-bottom: 72px;
+      color: white;
+}
+
+.hero .info .info__wrapper {
+      width: 35%;
+}
+
+.hero .info .info__title {
+      font-family: 'Sora', sans-serif;
+      font-size: 64px;
+      line-height: 80px;
+      width: 50%;
+}
+
+.hero .info .info__desc {
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+      font-size: 20px;
+      letter-spacing: -0.02em;
+      line-height: 32px;
+      color: #7E8BB6;
+      margin-bottom: 32px;
+
+}
+
+.hero .info .hero__btn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: var(--clr-secondary);
+    border: none;
+    color: white;
+}
+
+
