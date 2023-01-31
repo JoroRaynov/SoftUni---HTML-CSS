@@ -1,0 +1,50 @@
+* {
+      box-sizing: border-box;
+}
+
+div.container {
+      display: flex;
+      max-width: 65vw;
+}
+
+section {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+section.notes {
+      flex-direction: column;
+      
+}
+
+span {
+      display: flex;
+      border: 1px solid black;
+      align-items: center;
+      justify-content: center;
+}
+
+section.week span:nth-child(1),span:nth-child(7) {
+      height: 100px;
+      width: 100%;
+}
+
+section.week span:nth-child(2),
+span:nth-child(3),
+span:nth-child(4),
+span:nth-child(5),
+span:nth-child(6) {
+      height: 100px;
+      width: 20%;
+}
+
+section.week span:nth-child(8),
+span:nth-child(9) {
+    height: 100px;
+    width: 50%;
+}
+
+section.notes span {
+    height: 200px;
+    width: 180px;
+} 
