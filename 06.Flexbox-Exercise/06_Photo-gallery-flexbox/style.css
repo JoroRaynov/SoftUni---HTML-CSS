@@ -1,0 +1,22 @@
+body {
+      display: flex;
+}
+
+section.gallery {
+      width: 1200px;
+      margin: 0 auto;
+}
+
+
+ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap:44px;
+}
+
+ul li {
+      display: flex;
+      border: 6px solid black;
+      padding: 20px;
+}
