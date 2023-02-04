@@ -1,0 +1,100 @@
+@import url('./reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body > * {
+      font-family: 'Mulish', sans-serif;
+      color: #aa9492;
+}
+
+body {
+      background-image: url('../Resources/images/background.png');
+      background-size: cover;
+}
+
+fieldset {
+      width: 698px;
+      height: 500px;
+      background-image: url('../Resources/images/form-background.png');
+      background-size: cover;
+      border-radius: 28px;
+      border: none;
+      box-shadow: 10px 10px 17px -3px rgba(107, 104, 104, 1);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+form {
+      position: absolute;
+      top: 70px;
+      left: 50px;
+      width: 45%;
+}
+
+form h3 {
+      text-transform: uppercase;
+      text-align: center;
+      color: #38333a;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+}
+
+div.names {
+      width: 100%;
+      display: flex;
+      margin-bottom: 20px;
+        gap: calc(100% - 2 * 150px)
+}
+
+div.firstName,
+div.lastName {
+    
+}
+
+div.firstName input,
+div.lastName input {
+      width: 150px;
+      height: 30px;
+}
+
+input {
+      border: 1px solid #b1b0b0;
+      border-radius: 14px;
+}
+
+label {
+      margin-bottom: 8px;
+      font-size: 12px;
+}
+
+div.row {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+}
+
+div.row input {
+      width: 100%;
+}
+
+
+span {
+    font-size: 10px;
+}
+
+button.register {
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    border: none;
+    border-radius: 28px;
+    font-size: 10px;
+    background-color: #AE3C33;
+    color: #fff;
+    padding: 8px 18px;
+}
