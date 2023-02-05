@@ -1,114 +1,102 @@
 @media screen and (max-width: 600px) {
-    
-    header {
-        background-size: 760px;
-    }
-    
-    header nav ul li{
-        display: flex;
-        flex-direction: column;
-    }
+      header {
+            background-size: 760px;
+      }
 
-    header nav {
-        display: block;
-        text-align: center;
-    }
+      header nav ul li {
+            display: flex;
+            flex-direction: column;
+      }
 
-    header nav img {
-        margin-bottom:16px;
-    }
-.header-title {
-    padding: 2em;
-}
-    .header-title h1 {
-        font-size: 38px;
-        /* padding-bottom: 1em; */
-    }
+      header nav {
+            display: block;
+            text-align: center;
+      }
 
-    .header-title p:nth-child(3){
-        /* margin-bottom: 20px; */
-    }
+      header nav img {
+            margin-bottom: 16px;
+      }
+      .header-title {
+            padding: 2em;
+      }
+      .header-title h1 {
+            font-size: 38px;
+      }
 
-    .header-title p {
-        font-size: 16px;
-    }
+      .header-title p {
+            font-size: 16px;
+      }
 
-    .header-title button {
-        font-size: 12px;
-        /* margin-top: 4em; */
-    }
-    .about-us  {
-        width: 95%;
-    }
+      .header-title button {
+            font-size: 12px;
+      }
+      .about-us {
+            width: 95%;
+      }
 
-    .about-us h3{
-        font-size: 18px;
-    }
+      .about-us h3 {
+            font-size: 18px;
+      }
 
-    .about-us p:nth-child(2) {
-        font-size: 12px;
-        /* text-align: center; */
-    }
+      .about-us p:nth-child(2) {
+            font-size: 12px;
+      }
 
-    .about-us p:nth-child(3) {
-        font-size: 14px;
-    }
+      .about-us p:nth-child(3) {
+            font-size: 14px;
+      }
 
-    .team-description ul {
-        flex-wrap: wrap;
+      .team-description ul {
+            flex-wrap: wrap;
       }
 
       .team-description ul li img {
-        width: 200px;
-        height: 201px;
-        padding-bottom: 0.6rem;
+            width: 200px;
+            height: 201px;
+            padding-bottom: 0.6rem;
       }
 
       .team-description ul li {
-        margin-bottom: 2rem;
+            margin-bottom: 2rem;
       }
-      
+
       .choose-us ul {
-        display: flex;
+            display: flex;
 
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
       }
-      
+
       .choose-us li {
-        width: 390px;
+            width: 390px;
       }
 
-      
-.choose-us li img {
-    width: 7rem;
-    height: 7rem;
-  }
+      .choose-us li img {
+            width: 7rem;
+            height: 7rem;
+      }
 
-  .blog-news h3 {
-    font-size: 18px;
-  }
+      .blog-news h3 {
+            font-size: 18px;
+      }
 
-  .blog-news p {
-    font-size: 14px;
-  }
+      .blog-news p {
+            font-size: 14px;
+      }
 
-  .blog-news ul {
-    flex-direction: column;
-    gap: 32px;
-    margin-left: 80px;
-    margin-right: 80px;
-  }
+      .blog-news ul {
+            flex-direction: column;
+            gap: 32px;
+            margin-left: 80px;
+            margin-right: 80px;
+      }
 
-
-  .blog-news .content {
-    width: 15rem;
-    padding: 4rem 2rem;
-    
-  }
-  .blog-news .content h4 {
-    font-size:14px;
-  }
-  
+      .blog-news .content {
+            width: 15rem;
+            padding: 4rem 2rem;
+      }
+      .blog-news .content h4 {
+            font-size: 14px;
+      }
 }
