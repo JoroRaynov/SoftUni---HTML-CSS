@@ -1,0 +1,90 @@
+@import url('./reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body {
+    background-color: #F5F5F5;
+}
+
+.header {
+      text-align: center;
+      width: 100%;
+}
+
+
+.header h1,
+.header p {
+      font-family: 'Courgette', cursive;
+}
+
+.header h1 {
+      font-size: 60px;
+      padding-top: 30px;
+      font-weight: 100;
+}
+
+.header p {
+      color: #C91721;
+      position: relative;
+      left: 140px;
+      bottom: 15px;
+      font-size: 22px;
+}
+
+section {
+    display: flex;
+    margin: 20px 90px;
+    justify-content: center;
+}
+
+article {
+    width: 400px;
+    border-radius: 12px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.content  {
+    text-align: center;
+}
+
+
+.content h2 {
+    padding: 10px;
+    font-family: 'Courgette', cursive;
+}
+.divider {
+    position: relative;
+    left: 18px;
+    background-color: red;
+    width: 315px;
+    height: 1px;
+}
+.content__description {
+    /* font-size: 14px; */
+   padding-top: 10px;
+    margin-bottom: 30px; 
+
+    font-family: 'Courgette', cursive;
+}
+
+.continue {
+    margin-bottom: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+.continue i {
+
+    background-color: red;
+    border-radius: 100%;
+    color: #fff;
+    padding: 2px 3px;
+    margin-left: 4px;
+}
+
+article {
+    margin-right: 20px;
+}
+
+article:nth-last-of-type(4) {
+    margin-right: unset;
+}
