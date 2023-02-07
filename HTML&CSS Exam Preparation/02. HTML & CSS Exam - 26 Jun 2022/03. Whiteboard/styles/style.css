@@ -2,7 +2,7 @@
 body > * {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#hero::after {
+#hero .overlay {
       content: '';
       width: 100%;
       height: 60vh;
@@ -20,30 +20,25 @@ body > * {
 
 #hero {
       height: 60vh;
-      /* position: relative; */
 }
 
 #hero img {
-      /* background-image: url('../image/computer-main.jpg'); */
-      
-       background-repeat: no-repeat;
       background-size: cover; 
-      background-position: center center;
-      height: 60vh;
+      background-position: center;
+      height: 100%;
       width: 100%;
-      top: 0px;
-      left: 0px;
-      /* object-fit: cover; */
 }
 
 .header {
       width: 100%;
+      height: 40px;
       position: fixed;
+      background-color: transparent;
       z-index: 100;
       color: #fff;
       display: flex;
       justify-content: space-around;
-      padding-top: 20px;
+      align-items: center;
 }
 .header span {
       font-size: 20px;
@@ -68,13 +63,11 @@ body > * {
       margin-top: 10px;
       display: flex;
       flex-direction: column;
-      /* justify-content: center; */
       align-items: center;
 }
 
 .hero__content h1 {
       font-size: 50px;
-
       margin-bottom: 14px;
 }
 
@@ -109,9 +102,20 @@ body > * {
 .hustle__content img,
 .hustle__what {
       width: 50%;
+      
 }
 
-.hustle__propertie {
+.hustle__what {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.hustle__what .hustle__title p {
+      width: 380px;
+}
+
+.hustle__property {
       padding: 20px;
 }
 
@@ -119,7 +123,7 @@ body > * {
       padding: 20px 0px 0px 60px;
 }
 
-.hustle__propertie i {
+.hustle__property i {
       background-color: #00d08e;
       color: #fff;
       border-radius: 51%;
