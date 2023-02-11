@@ -1,0 +1,67 @@
+@import url('./reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+      font-family: 'Lato', sans-serif;
+}
+
+p {
+      color: #666666;
+}
+
+.header {
+      padding-top: 20px;
+      text-align: center;
+}
+
+.main {
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      padding: 50px 100px;
+}
+
+.main .description {
+      width: 50%;
+      padding-right: 40px;
+}
+
+.main .description h3 {
+      margin-bottom: 50px;
+}
+
+.main .description > p {
+      margin-bottom: 70px;
+}
+
+.bmw {
+      object-fit: cover;
+      width: 50%;
+}
+
+.description__characteristics {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 0;
+}
+
+.description__characteristics .description__characteristic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.description__characteristic img {
+    margin-right: 5px;
+}
+
+.description__characteristics .description__characteristic:not(:last-child) {
+      margin-bottom: 36px;
+}
+
+.sub--description p.title {
+      font-weight: bold;
+      margin-bottom: 2px;
+}
