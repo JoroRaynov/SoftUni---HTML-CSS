@@ -1,6 +1,6 @@
 @import url('./reset.css');
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;400;900&display=swap');
 
 h1,
 h2,
@@ -78,6 +78,7 @@ p {
       padding: 8px 32px;
       color: #ff3200;
       font-weight: bold;
+      cursor: pointer;
 }
 
 /* Section Services */
