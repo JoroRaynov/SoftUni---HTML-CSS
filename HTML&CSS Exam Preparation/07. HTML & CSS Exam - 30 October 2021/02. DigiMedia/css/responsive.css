@@ -1,0 +1,113 @@
+@media screen and (max-width: 600px) {
+      #navbarSupportedContent {
+            display: none;
+      }
+      .navbar {
+            justify-content: center;
+      }
+
+      .hero img {
+            display: none;
+      }
+      
+      .navbar-light .navbar-brand {
+        margin-right: unset;
+    }
+      
+      .hero h1 {
+        margin-top: 71px;
+        text-align: center;
+    }
+
+    .hero p {
+        text-align: center;
+        margin-bottom: 61px;
+    }
+
+    .hero-btns {
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-btns a:first-child {
+        
+        padding: 17px 67px;
+       
+    }
+
+    h2 {
+        padding: 0px 56px;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .row {
+        
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-img img {
+       display: none;
+    }
+
+    .side2-img img {
+       display: none;
+        
+    }
+
+    .col-sm-6 {
+        
+        max-width: unset;
+    }
+
+    h5 {
+        
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 58px;
+    }
+
+    .about p {
+        color: #314584;
+        text-align: center;
+    }
+
+    .about h2 {
+        margin-bottom: 9px;
+    }
+
+    .about {
+        margin-bottom: 73px;
+    }
+
+    .container {
+        max-width: unset;
+        width: 100%;
+    }
+
+
+    div.hero-btns.contact-btn {
+        display: none
+    }
+    
+
+    .contact-nav {
+        display: flex;
+        flex-direction: column
+    }
+
+    footer h3 {
+        font-size: 2.5rem;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
