@@ -1,0 +1,70 @@
+@import url('./reset.css');
+
+body {
+    font-family: 'Helvetica';
+}
+
+section {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    background-color: #F6F8F9;
+    margin: 40px auto;
+    gap: 40px;
+    border-radius: 8px;
+    max-width: 1000px;
+    position: relative;
+}
+
+
+section .desc_Container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    width:42%;
+}
+
+section .desc_Container .subTitle{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #273240;
+}
+
+section .desc_Container .title{
+    font-size: 28px;
+    font-weight: lighter;
+    margin-bottom: 18px;
+    color: #273240;
+}
+
+
+section .desc_Container .desc{
+    font-weight: lighter;
+    margin-bottom: 18px;
+    line-height: 1.5;
+    color: #5B6771;
+}
+
+section img {
+
+    position: absolute;
+    right: 62px;
+    bottom: 0px;
+    width: 30%;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px 18px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btns .main.btn {
+    background-color:#786EFF;
+    border: none;
+    color: #fff;
+    margin-right: 12px;
+}
