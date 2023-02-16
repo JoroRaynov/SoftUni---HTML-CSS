@@ -21,6 +21,10 @@ section {
     padding: 0px 60px
 }
 
+.info .title {
+    margin-bottom: 20px;
+}
+
 .info,
 .img__wrapper {
     width: 50%;
