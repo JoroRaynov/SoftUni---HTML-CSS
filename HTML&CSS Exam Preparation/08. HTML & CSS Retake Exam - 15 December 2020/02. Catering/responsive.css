@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+
+
+    .w3-right {
+        display: none;
+    }
+    
+
+    .w3-col.m6.w3-padding-large.w3-hide-small img {
+        display: none;
+    }
+
+    .w3-padding-64 {
+        padding-top: 38px;
+        padding-bottom: 64px;
+    }
+    .w3-col.m6 {
+        width: 100%;
+    }
+    
+    .w3-col.l6 {
+        width: 100%;
+    }
+    
+}
