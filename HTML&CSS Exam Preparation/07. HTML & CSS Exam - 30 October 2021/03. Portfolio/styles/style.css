@@ -26,6 +26,8 @@ section {
       background-color: #eaeaea;
       padding: 80px;
       margin-bottom: 36px;
+      height: 80vh;
+
 }
 
 .divider {
@@ -47,7 +49,6 @@ section {
       display: flex;
       align-items: center;
       position: relative;
-      height: 40vh;
 }
 
 #hero .btn--menu {
