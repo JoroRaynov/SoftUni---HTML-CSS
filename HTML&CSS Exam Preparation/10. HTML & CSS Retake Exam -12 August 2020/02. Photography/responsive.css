@@ -1,1 +1,36 @@
-/* TODO: Add media queries */
+@media screen and (max-width: 600px) {
+    .thumbnails {
+        flex-direction: column;
+        align-items: center;
+       /* width: 100%; */
+    }
+
+    .thumbnails > div {
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 2em;
+    }
+
+
+    .thumbnails a {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 26px;   
+    }
+
+    .thumbnails > div > :last-child {
+        margin-bottom: 26px
+    }
+
+
+    .thumbnails a img {
+       
+        height: 80%;
+    }
+
+    
+}
