@@ -1,0 +1,229 @@
+@import url('./reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+body {
+      font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+      padding: 10px 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.header img {
+      width: 100px;
+}
+
+.nav ul li a {
+      text-decoration: none;
+      color: #54546d;
+}
+
+.nav ul {
+      display: flex;
+      gap: 30px;
+}
+
+/* HERO SECTION */
+
+#hero {
+      position: relative;
+      margin-bottom: 240px;
+}
+
+#hero .title {
+    color: #54546d;
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+}
+#hero .img__wrapper {
+      width: 100%;
+      height: 50vh;
+}
+
+#hero .img__wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+#hero .courses__container {
+      padding: 0px 60px;
+      position: absolute;
+      top: 140px;
+      display: grid;
+      height: 452px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+}
+
+.btn {
+      margin: 65px 0px 55px 0px;
+
+      border: none;
+      background-color: #9a5dc6;
+      padding: 12px 36px;
+      border-radius: 22px;
+      color: #fff;
+      font-weight: bold;
+}
+
+.course {
+      height: 80%;
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #fff;
+      text-align: center;
+      color: #54546d;
+      border-radius: 8px;
+      overflow: hidden;
+}
+
+.course__title--container.two {
+      padding: 0px 30px;
+      
+}
+.course__desc.two {
+    margin-bottom: 20px;
+}
+
+.course__title.two {
+    margin-bottom: 20px;
+}
+
+.course .course__title--container {
+      font-size: 16px;
+      height: 70%;
+}
+
+.course__price {
+      width: 100%;
+      height: 30%;
+      padding: 30px;
+      color: #fff;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.course__price.middle {
+    background-color: #5680A7;
+}
+.course__price.two {
+    flex-direction: row;
+    align-items: center;
+}
+
+.course__price.purple {
+    background-color: #705FC7;
+}
+
+.divider {
+    height: 100%;
+    background-color: #fff;
+    width: 2px;
+    margin-left: 12px;
+    margin-right: 32px;
+}
+.course__price.green {
+      background-color: #44d079;
+}
+
+/* Description Section */
+
+
+#description {
+      padding-left: 120px;
+      padding-right: 120px;
+      display: flex;
+      flex-direction: column;
+      color: #80808D;
+      margin-bottom: 100px;
+}
+
+.description__title {
+      margin-bottom: 20px;
+}
+
+.description__desc {
+      margin-bottom: 30px;
+}
+
+.description__table {
+      border-radius: 8px;
+      overflow: hidden;
+}
+
+.description__table p:nth-child(odd) {
+      background-color: #E5E5E5;
+}
+
+.description__table p:nth-child(even) {
+      background-color: #F5F5F5;
+}
+.description__table p {
+      color: #565656;
+      padding: 12px;
+      display: flex;
+      position: relative;
+}
+
+.description__table span:nth-child(1) {
+      position: absolute;
+      right: 320px;
+}
+
+.description__table span:nth-child(2) {
+      position: absolute;
+      right: 100px;
+}
+
+/* Postbank */
+
+ #postbank {
+      padding-left: 60px;
+      margin-bottom: 120px;
+      color: #565656;
+ }
+ .postbank__title {
+       margin-bottom: 30px;
+
+ }
+ 
+
+ .postbank__desc p:nth-child(1) {
+      margin-bottom: 20px
+ }
+
+ .postbank__desc--container {
+      display: flex;
+      gap: 142px;
+ }
+
+footer {
+      background-color: #54546D;
+      text-align: center;
+}
+
+footer p{
+      padding: 20px;
+      color:#827889;
+}
