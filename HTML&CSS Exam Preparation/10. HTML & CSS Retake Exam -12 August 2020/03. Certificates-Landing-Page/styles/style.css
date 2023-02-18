@@ -1,0 +1,276 @@
+@import url('./reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      font-family: 'Montserrat', sans-serif;
+}
+
+body {
+      font-family: 'Lato', sans-serif;
+}
+
+.header {
+      display: flex;
+      justify-content: space-between;
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+            0 8px 10px -6px rgb(0 0 0 / 0.1);
+      width: 90%;
+      border-radius: 8px;
+      padding-left: 30px;
+      padding-right: 30px;
+      position: fixed;
+      left: 5%;
+      background-color: #fff;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      z-index: 100;
+}
+
+.overlay {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header img {
+      width: 120px;
+}
+
+.header span {
+      border-radius: 51%;
+      background-color: #42abf8;
+      color: #fff;
+      font-size: 14px;
+      padding: 6px;
+}
+
+.nav .nav__lists {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+}
+
+.nav .nav__lists li a {
+      text-decoration: none;
+      color: #4e5b6b;
+      padding: 14px 6px;
+}
+
+.nav__list.cer a {
+      border-top: 3px solid #39a6f6;
+      margin-bottom: 16px;
+}
+
+/* HERO */
+
+#hero {
+      position: relative;
+      height: 70vh;
+      background-image: url(../images/hero-certificates.jpg);
+      object-fit: cover;
+      background-size: cover;
+}
+
+.hero__container {
+      position: absolute;
+      top: 50px;
+      left: 40px;
+      padding: 50px 80px;
+      display: flex;
+
+      gap: 40px;
+}
+
+.hero__sertificates {
+      display: flex;
+      width: 40%;
+      align-items: flex-end;
+}
+
+.hero__sertificates .blue {
+      height: 230px;
+}
+
+.hero__info--title {
+      margin-bottom: 20px;
+}
+
+.hero__info--desc {
+      margin-bottom: 20px;
+}
+.hero__sertificates .black {
+      height: 270px;
+}
+
+.hero__info {
+      width: 60%;
+      color: #fff;
+      background-color: #29394b;
+      border-radius: 8px;
+      padding: 14px;
+}
+
+p.diploma {
+      color: #3f4d5e;
+      position: absolute;
+      bottom: 67px;
+      left: 122px;
+      font-style: italic;
+}
+
+/* Diploma */
+
+.diploma__title {
+    margin-bottom: 20px;
+    color: #3F4D5E;
+}
+
+#diploma {
+      padding: 60px;
+      text-align: center;
+}
+
+.diploma__desc--container {
+      background-color: #f4f5f7;
+      text-align: left;
+      padding: 10px 14px 30px 14px;
+      color: #576472;
+      margin-bottom: 12px;
+}
+
+.diploma__admission {
+      text-align: left;
+}
+
+/* explore */
+
+#explore {
+      position: relative;
+      padding: 60px;
+}
+.explore__container {
+      width: 100%;
+      position: relative;
+      margin-bottom: 60px;
+}
+.img__wrapper {
+      width: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+}
+
+.img__wrapper img {
+      width: 100%;
+}
+
+.explore__description {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      text-align: center;
+}
+
+#explore .overlay {
+      position: absolute;
+      top: 0px;
+      left: 00px;
+      bottom: 0px;
+      right: 0px;
+      background-color: rgba(142, 144, 172, 0.5);
+
+      border-radius: 8px;
+}
+
+.explore__description h2 {
+      margin-bottom: 16px;
+}
+
+.explore__desc {
+      margin-bottom: 30px;
+}
+
+.btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.btns .btn {
+      all: unset;
+      border-radius: 6px;
+      background-color: #fff;
+      color: #378bca;
+      padding: 6px 26px;
+      font-size: 14px;
+      cursor: pointer;
+}
+
+.vertical {
+      height: 26px;
+      width: 2px;
+      display: inline-block;
+      margin-left: 26px;
+      margin-right: 26px;
+      background-color: #fff;
+}
+
+.btns .btn.transperant {
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+}
+
+.divider {
+      height: 1px;
+      width: 100%;
+      background-color: #64707d;
+}
+
+/* footer */
+
+footer {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 60px;
+}
+
+.sf_logo {
+      width: 100px;
+      margin-right: 12px;
+}
+
+.footer__lists {
+      display: flex;
+      gap: 10px;
+}
+.logo_container {
+      display: flex;
+      align-items: center;
+}
+
+.logo_container span {
+      color: #cecece;
+}
+
+.footer__lists li a {
+      text-decoration: none;
+      color: #5d6977;
+}
+
+.fa-facebook-f,
+.fa-twitter {
+      background-color: #3e4c5d;
+      color: #fff;
+      padding: 4px 4px 0px 4px;
+      font-size: 12px;
+}
